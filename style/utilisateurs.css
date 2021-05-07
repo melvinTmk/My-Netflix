@@ -1,0 +1,109 @@
+#profilPage
+{
+    background-color: #221F1F;
+
+}
+
+h1
+{
+    color: white;
+    font-size: 3.2em;
+}
+
+.profil img
+{
+    border: 2px solid transparent;
+    width: 80%;
+    margin-left: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.profil img, .profil p
+{
+   
+    transition: all .3s ;
+    -webkit-transition: all .3s ;
+    -moz-transition: all .3s ;
+    -ms-transition: all .3s ;
+    -o-transition: all .3s ;
+    margin-left: 25px;
+}
+
+.profil:hover img
+{
+    border: 2px solid white;
+}
+
+.profil:hover p
+{
+    color: white;
+}
+
+.profil p
+{
+    text-align: center;
+    font-size: 1.1em;
+    color: white !important;
+}
+a 
+{
+    text-decoration: none;
+}
+
+.boutonProfil
+{
+    text-transform: uppercase;
+    border: 1px solid #808080;
+    padding: .5em 1.5em;
+    color:#808080 ;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+.boutonProfil:hover
+{
+    color:white ;
+    border: 1px solid white;
+    transition: 0.3s ;
+    -webkit-transition: 0.3s ;
+    -moz-transition: 0.3s ;
+    -ms-transition: 0.3s ;
+    -o-transition: 0.3s ;
+}
+
+nav img
+{
+    width: 150px;
+    margin: 20px;
+}
+
+
+.profil
+{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+ 
+}
+.profil img
+{
+    width: 300px !important;
+    height: 300px;
+   
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+a
+{
+    text-decoration: none !important;
+}

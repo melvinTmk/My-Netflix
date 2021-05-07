@@ -1,0 +1,450 @@
+*
+{
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+    background-color: #141414;
+    overflow-x: hidden;
+}
+/**** CSS IMAGE TOP + NAV **/
+.container {
+	height: 100vh;
+	background-image: linear-gradient(
+			to top,
+			rgba(0, 0, 0, 0.5) 0%,
+			rgba(0, 0, 0, 0.2) 10%,
+			rgba(20, 20, 20, 0.5) 80%,
+			rgba(20, 20, 20, 1) 100%
+		),
+		url(../images/LupinBg3.jpg) !important;
+	background-size: cover;
+    padding: 0.26rem 0.75rem 0 0.75rem;
+}
+.hero {
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0 3rem;
+}
+.header {
+	display: flex;
+	align-items: center;
+}
+.logo img {
+	width: 11rem;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+    align-items: center;
+}
+.menu-left,
+.menu-right {
+	display: flex;
+	color: #e5e5e5 !important;
+    font-size: 1.2rem;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+
+}
+.menu ul {
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+.menu ul li {
+	padding-right: 0.9rem;
+}
+.menu .user img {
+	width: 2rem;
+	margin-right: 0.5rem;
+}
+.menu .user {
+	display: flex;
+	align-items: center;
+}
+.menu i {
+	font-size: 20px;
+}
+.menu-right ul li {
+	padding-right: 1.5rem;
+}
+
+
+
+.search-box
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color:transparent;
+    height: 40px;
+    border-radius: 40px;
+ 
+	
+	
+}
+.search-btn
+{
+    position: relative;
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-box:hover > .search-txt
+{
+    width: 170px;
+	padding: 0 6px;
+}
+
+.search-box:hover > .search-btn
+{
+	background-color: #E50914;
+	
+}
+
+.search-txt
+{
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.recherche
+{
+	width: 100%;
+	margin-right: 135px !important;
+	
+}
+
+.fa-user-circle,.fa-user-cog,.fa-bell
+{
+	font-size: 1.4em !important;
+}
+.fa-user-circle:hover,.fa-user-lock:hover,.fa-bell:hover,.fa-user-cog:hover
+{
+	color: #E50914;
+	transition: 0.4s;
+}
+.notif
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color:#E50914;
+	position: absolute;
+    right: 4.1%;
+    top: 3.7%;
+   
+}
+
+.notif span
+{
+
+ 
+ font-size: 0.8em;
+padding-left: 5px;
+position: absolute;
+top: 2%;
+left: 1%;
+}
+.banner {
+	height: 80%;
+	position: relative;
+	top: 30%;
+	width: 50%;
+	
+}
+.banner .poster {
+	width: 450px !important;
+}
+
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+.banner .subtitle {
+	font-size: 1.25rem;
+	color: #fff;
+	line-height: 1.25;
+	padding-top: 0.5rem;
+	width: 60%;
+}
+.buttons {
+	margin-top: 2rem;
+	cursor: pointer;
+}
+.buttons .btn {
+	color: #fff;
+	padding: 0.6rem 2rem;
+	margin-right: 0.75rem;
+	font-weight: 600;
+	border-radius: 0.5rem;
+	background: rgba(51, 51, 51, 0.4);
+	font-family: inherit;
+	font-size: 100%;
+	border: 0;
+	height: 50px;
+	
+}
+.buttons .btn:hover
+{
+    background-color: #E50914;
+    transition: all 0.5s ;
+}
+.buttons .btn i {
+	margin-right: 0.5rem;
+}
+
+
+/***** CSS SLIDER  *****/
+.category {
+	height: 200px;
+}
+.category2
+{
+    padding-top: 30px;
+}
+.category span {
+	color: #e5e5e5;
+	font-size: 18px;
+	line-height: 17px;
+	font-weight: 600;
+}
+/* .slider {
+	margin-top: 0.8rem;
+	display: flex;
+	overflow: hidden;
+	position: absolute;
+	left: 3.75rem;
+	right: 0;
+}
+.slider .movie {
+	min-width: 19.3%;
+}
+.slider .movie img {
+	max-width: 100%;
+    padding-right: 5px;
+	border-radius: 5px 5px 5px 5px;
+	
+} */
+
+
+.subtitle2
+{
+	font-size: 1.9em !important;
+	color: #e5e5e5;
+	font-size: 18px;
+	line-height: 17px;
+	font-weight: 600;
+}
+
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+    
+  }
+  
+  img {
+	max-width: 100%;
+    border-radius: 5px;
+    z-index: -1;
+  }
+  
+  :root {
+	--swiper-theme-color: #fff !important;
+  }
+  
+  .netflix-slider .swiper-wrapper {
+    padding: 20px 0;
+ 
+  }
+  
+  .netflix-slider .swiper-slide {
+	-webkit-transition: 250ms all;
+    transition: 250ms all;
+  }
+  
+
+  
+  .netflix-slider .swiper-slide:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+    z-index: 1;
+  }
+
+  .netflix-slider .swiper-slide::after:hover 
+  {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .netflix-slider .swiper-slide:first-child:hover {
+    margin: 0 40px;
+	
+  }
+  
+  .netflix-slider .swiper-slide:last-child:hover {
+    margin: 0 -40px;
+  }
+
+  .marginBetweenSlider
+  {
+	  margin-bottom: 15px;
+  }
+
+
+ 
+.footer {
+	margin: 100px auto 0;
+	width: 80%;
+	color: #808080;
+}
+.footer .social i {
+	padding-right: 26px;
+	font-size: 28px;
+}
+.flex {
+	display: flex;
+	padding-bottom: 80px;
+}
+.footer .info {
+	width: 25%;
+}
+.footer .info ul {
+	list-style: none;
+	display: inline;
+	font-size: 13px;
+}
+.footer .info ul li {
+	margin-top: 8px;
+}
+
+
+.back
+{
+	background-color: rgb(75, 75, 75);
+}
+
+button
+{
+    outline: none;
+}
+
+
+.fa-play-circle
+{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:0em;
+    visibility: hidden;
+    color: white;
+    cursor: pointer;
+}
+
+
+.netflix-slider .swiper-slide:hover .fa-play-circle
+{
+    visibility: visible;
+    font-size:4em;
+    transition: visibility 1s ease-in-out;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.fa-thumbs-up
+{
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    font-size:0em;
+    visibility: hidden;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-thumbs-down
+{
+    z-index: 2;
+    position: absolute;
+    top: 65%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    font-size:0em;
+    visibility: hidden;
+    color: white ;
+    cursor: pointer;
+    
+}
+
+.netflix-slider .swiper-slide:hover .fa-thumbs-down, .netflix-slider .swiper-slide:hover .fa-thumbs-up
+{
+    visibility: visible;
+    font-size:1.7em;
+    transition: visibility 1s ease-in-out;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.fa-thumbs-up:hover,.fa-thumbs-down:hover, .fa-play-circle:hover
+{
+    color: #e50d13;
+    transition: color 0.5s ease-in-out;
+}
+/********************************************************** ANIMATION ******************************************************/
+
+
+.buttons .btn:hover i
+{
+	transform: rotate(360deg);
+	transition: all 1s ease-in-out;
+}
+
+
+.buttons .btn:first-child {
+	color: black;
+	padding: 0.6rem 2rem;
+	margin-right: 0.75rem;
+	font-weight: 600;
+	border-radius: 0.5rem;
+	background: rgb(255, 255, 255) !important;
+	font-family: inherit;
+	font-size: 100%;
+	border: 0;
+	height: 50px;
+}

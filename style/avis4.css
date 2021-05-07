@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+
+    {
+        /* background-image: url(images/backgroundb.png);
+        height: 300px; */
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+
+.bloc
+{
+    display: inline-block;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    padding-bottom: 40px;
+    /* padding-top: 40px; */
+    border-radius: 7px;
+    margin-left: 330px;
+    margin-top: 30px;
+    height: 1200px;
+    width: 760px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 15px;
+  
+}
+
+.lupin
+{
+    height: 327px;
+ 
+
+    border-radius: 15px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(28, 28, 28, 0.3) 40%,
+        rgba(28, 28, 28, 1) 100%
+    ),
+    url(../images/lupin.jpg);
+
+}
+
+.resume
+{
+    margin-left: 35px;
+    margin-right: 70px;
+}
+
+.voirserie
+{
+    margin-left: 35px;
+}
+
+.regarder
+{
+    margin-left: 35px;
+}
+
+.chapitre
+{
+    background-color: rgba(0, 0, 0, 0.13);
+    color: white;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.texte
+{
+    /* margin-left: 35px; */
+    margin-right: 35px;
+    margin-bottom: 95px;
+}
+
+.lupinTitre
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin-left: 35px;
+  position: relative;
+}
+
+.donnez
+{
+    font-size: 20px;
+}
+
+.textarea
+{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    margin-top: 9px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+}
+
+.fa-thumbs-up
+{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 45px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    
+    /* margin-left: 30px; */
+}
+.fa-thumbs-up:hover
+{
+    color: rgb(0, 131, 238);
+    transition: 0.3s ease;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.fa-thumbs-down
+{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 45px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    z-index: -1;
+}
+.fa-thumbs-down:hover
+{
+    color: rgb(218, 0, 0);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.pouces
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+.avis
+{
+    font-size: 27px;
+}
+
+.pingouin
+{
+    height: 70px;
+    /* margin-left: 9px; */
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.em
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 17px;
+}
